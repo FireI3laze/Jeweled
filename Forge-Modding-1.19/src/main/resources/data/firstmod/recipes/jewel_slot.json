@@ -1,0 +1,27 @@
+  {
+  "type": "minecraft:crafting_shaped",
+
+  "key": {
+    "#": {
+      "item": "firstmod:zircon_block"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "DHD",
+    "I#I",
+    " I "
+  ],
+
+  "result": {
+    "item": "firstmod:jewel_slot"
+  }
+}

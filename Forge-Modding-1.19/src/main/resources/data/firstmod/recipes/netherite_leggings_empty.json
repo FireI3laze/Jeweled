@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "firstmod:jewel_slot"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "item": "firstmod:netherite_leggings_empty"
+  }
+}

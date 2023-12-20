@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:zircon_ore",
+    "firstmod:zircon_block",
+    "firstmod:deepslate_zircon_ore",
+    "firstmod:speed_block"
+  ]
+}

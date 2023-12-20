@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "key": {
+    "#": {
+      "item": "firstmod:zircon_block"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "pattern": [
+    "NDN",
+    "S#S",
+    "NBN"
+  ],
+
+  "result": {
+    "item": "firstmod:speed_block"
+  }
+}
