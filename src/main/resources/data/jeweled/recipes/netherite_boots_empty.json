@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smiting",
+  "addition": {
+    "item": "jeweled:jewel_slot"
+  },
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "result": {
+    "item": "jeweled:netherite_boots_empty"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smiting",
+  "addition": {
+    "item": "jeweled:zircon_jewel"
+  },
+  "base": {
+    "item": "jeweled:netherite_chestplate_empty"
+  },
+  "result": {
+    "item": "jeweled:netherite_chestplate_jeweled"
+  }
+}

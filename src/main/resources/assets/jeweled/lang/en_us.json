@@ -1,0 +1,24 @@
+{
+  "item.jeweled.zircon": "Zircon",
+  "item.jeweled.raw_zircon": "Raw Zircon",
+
+  "item.jeweled.jewel_slot": "Jewel Slot",
+  "item.jeweled.zircon_jewel": "Zircon Jewel",
+
+  "item.jeweled.netherite_helmet_empty": "Netherite Helmet (empty)",
+  "item.jeweled.netherite_chestplate_empty": "Netherite Chestplate (empty)",
+  "item.jeweled.netherite_leggings_empty": "Netherite Leggings (empty)",
+  "item.jeweled.netherite_boots_empty": "Netherite Boots (empty)",
+
+  "item.jeweled.netherite_helmet_jeweled": "Netherite Helmet (jeweled)",
+  "item.jeweled.netherite_chestplate_jeweled": "Netherite Chestplate (jeweled)",
+  "item.jeweled.netherite_leggings_jeweled": "Netherite Leggings (jeweled)",
+  "item.jeweled.netherite_boots_jeweled": "Netherite Boots (jeweled)",
+
+  "block.jeweled.zircon_block": "Block of Zircon",
+  "block.jeweled.zircon_ore": "Zircon Ore",
+  "block.jeweled.deepslate_zircon_ore": "Deepslate Zircon Ore",
+  "block.jeweled.speed_block": "Speed Block",
+
+  "itemGroup.creative_tab": "Jeweled"
+}

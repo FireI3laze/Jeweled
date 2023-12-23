@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "jeweled:zircon_jewel"
+  },
+  "base": {
+    "item": "jeweled:netherite_helmet_empty"
+  },
+  "result": {
+    "item": "jeweled:netherite_helmet_jeweled"
+  }
+}

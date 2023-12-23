@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smiting",
+  "addition": {
+    "item": "jeweled:jewel_slot"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "result": {
+    "item": "jeweled:netherite_helmet_empty"
+  }
+}
