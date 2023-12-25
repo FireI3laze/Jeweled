@@ -34,6 +34,7 @@ public class ArmorEquippedC2SPacket {
 
         context.enqueueWork(() -> {
 
+            context.getSender().displayClientMessage(Component.literal("Equipped"), false);
 
         });
 
