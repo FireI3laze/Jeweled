@@ -1,5 +1,6 @@
 package de.foldingfan.jeweled.common.items.armor;
 
+import de.foldingfan.jeweled.Jeweled;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
@@ -12,13 +13,12 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
 
-    NETHERITE_EMPTY("netherite_empty", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
-        return Ingredient.of(Items.NETHERITE_INGOT);
-
-    }),
-    NETHERITE_JEWELED("netherite_jeweled", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
-        return Ingredient.of(Items.NETHERITE_INGOT);
-    });
+    NETHERITE_EMPTY("netherite_empty", 37, new int[]{3, 6, 8, 3},
+            15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F,
+            () -> Ingredient.of(Items.NETHERITE_INGOT)),
+    NETHERITE_JEWELED("netherite_jeweled", 37, new int[]{3, 6, 8, 3},
+            15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F,
+            () -> Ingredient.of(Items.NETHERITE_INGOT));
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;
@@ -30,7 +30,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     private final float knockbackResistance;
     private final LazyLoadedValue<Ingredient> repairIngredient;
 
-    private ModArmorMaterials(String name, int durabilityMultiplier, int[] slotProtections, int enchantmentValue,
+    ModArmorMaterials(String name, int durabilityMultiplier, int[] slotProtections, int enchantmentValue,
                               SoundEvent sound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
@@ -65,7 +65,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }
 
     public String getName() {
-        return ":" + this.name;
+        return Jeweled.ID + ":" + this.name;
     }
 
     public float getToughness() {

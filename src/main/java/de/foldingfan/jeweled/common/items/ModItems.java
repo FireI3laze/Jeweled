@@ -1,7 +1,7 @@
 package de.foldingfan.jeweled.common.items;
 
 import de.foldingfan.jeweled.Jeweled;
-import de.foldingfan.jeweled.common.items.armor.ModArmorItem;
+import de.foldingfan.jeweled.common.items.armor.JeweledArmor;
 import de.foldingfan.jeweled.common.items.armor.ModArmorMaterials;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
@@ -51,13 +51,13 @@ public class ModItems {
 
         //Netherite Armor Jeweled
         NETHERITE_HELMET_JEWELED = ITEMS.register("netherite_helmet_jeweled", () ->
-                new ModArmorItem(ModArmorMaterials.NETHERITE_JEWELED, ArmorItem.Type.HELMET, new Item.Properties()));
+                new JeweledArmor(ArmorItem.Type.HELMET));
         NETHERITE_CHESTPLATE_JEWELED = ITEMS.register("netherite_chestplate_jeweled", () ->
-                new ModArmorItem(ModArmorMaterials.NETHERITE_JEWELED, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+                new JeweledArmor( ArmorItem.Type.CHESTPLATE));
         NETHERITE_LEGGING_JEWELED = ITEMS.register("netherite_leggings_jeweled", () ->
-                new ModArmorItem(ModArmorMaterials.NETHERITE_JEWELED, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+                new JeweledArmor( ArmorItem.Type.LEGGINGS));
         NETHERITE_BOOTS_JEWELED = ITEMS.register("netherite_boots_jeweled", () ->
-                new ModArmorItem(ModArmorMaterials.NETHERITE_JEWELED, ArmorItem.Type.BOOTS, new Item.Properties()));
+                new JeweledArmor( ArmorItem.Type.BOOTS));
 
     }
 

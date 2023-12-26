@@ -9,12 +9,17 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 import java.util.Map;
 
-public class ModArmorItem extends ArmorItem {
+public class JeweledArmor extends ArmorItem {
+
+    public JeweledArmor(ArmorItem.Type type) {
+        super(ModArmorMaterials.NETHERITE_JEWELED, type, new Item.Properties());
+    }
 
     //Full Set Effect
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
@@ -45,7 +50,7 @@ public class ModArmorItem extends ArmorItem {
                             new MobEffectInstance(ModEffects.NEGATEDABSOPTION.get(), 200, 1)).build();
 
 
-    public ModArmorItem(ArmorMaterial material, ArmorItem.Type type, Properties settings) {
+    public JeweledArmor(ArmorMaterial material, ArmorItem.Type type, Properties settings) {
         super(material, type, settings);
     }
 
